@@ -1,11 +1,36 @@
 # LeetCodeExercises
 
-In this repository you can find all the Leet Code exercises that I completed.
+https://leetcode.com/problems/median-of-two-sorted-arrays/
 
-Each exercise has his own branch with a description of the excercise, the leet code link and the result obtained.
+Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
 
-Also, each exercise are documented in comments with a brief description of the instruction/logic implemented.
+The overall run time complexity should be O(log (m+n)).
 
-Unitary test might be found in each exercise using JUnit and Hamcrest with/or not parameterized test.
 
-Feel you free to take a look into those exercises.
+
+### Example 1:
+
+Input: nums1 = [1,3], nums2 = [2]
+Output: 2.00000
+Explanation: merged array = [1,2,3] and median is 2.
+
+
+### Example 2:
+
+Input: nums1 = [1,2], nums2 = [3,4]
+Output: 2.50000
+Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
+
+
+### Constraints:
+
+nums1.length == m
+nums2.length == n
+0 <= m <= 1000
+0 <= n <= 1000
+1 <= m + n <= 2000
+-106 <= nums1[i], nums2[i] <= 106
+
+### Result
+
+<img src="Result.jpg">
