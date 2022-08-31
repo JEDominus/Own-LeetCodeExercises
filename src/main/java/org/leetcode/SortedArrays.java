@@ -36,7 +36,7 @@ public class SortedArrays {
         //ask if array length is pair o non to implement corresponding logic
         if(isPair(source)){//If is pair
             //Take the "median" value and one before of that, sum them and divide between 2 (Returns decimals values)
-            median = (source[source.length/2] + (source[source.length/2]-1))/2;
+            median = (source[source.length/2] + source[(source.length/2)-1])/2;
         }else{
             //Take the "median" value assign it to return (Returns entire values)
             median = Math.ceil(source[source.length/2]);
