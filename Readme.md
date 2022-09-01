@@ -1,11 +1,39 @@
-# LeetCodeExercises
+# Valid Parentheses
 
-In this repository you can find all the Leet Code exercises that I completed.
+https://leetcode.com/problems/valid-parentheses/
 
-Each exercise has his own branch with a description of the excercise, the leet code link and the result obtained.
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
-Also, each exercise are documented in comments with a brief description of the instruction/logic implemented.
+An input string is valid if:
 
-Unitary test might be found in each exercise using JUnit and Hamcrest with/or not parameterized test.
+Open brackets must be closed by the same type of brackets.
+Open brackets must be closed in the correct order.
+Every close bracket has a corresponding open bracket of the same type.
 
-Feel you free to take a look into those exercises.
+
+### Example 1:
+
+Input: s = "()"
+Output: true
+
+
+### Example 2:
+
+Input: s = "()[]{}"
+Output: true
+
+
+### Example 3:
+
+Input: s = "(]"
+Output: false
+
+
+### Constraints:
+
+1 <= s.length <= 104
+s consists of parentheses only '()[]{}'.
+
+### Result 
+
+<img src="Result.jpg">
