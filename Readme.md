@@ -1,11 +1,39 @@
-# LeetCodeExercises
+# Find First and Last Position of Element in Sorted Array
+https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 
-In this repository you can find all the Leet Code exercises that I completed.
+Given an array of integers nums sorted in non-decreasing order, find the starting and ending position of a given target value.
 
-Each exercise has his own branch with a description of the excercise, the leet code link and the result obtained.
+If target is not found in the array, return [-1, -1].
 
-Also, each exercise are documented in comments with a brief description of the instruction/logic implemented.
+You must write an algorithm with O(log n) runtime complexity.
 
-Unitary test might be found in each exercise using JUnit and Hamcrest with/or not parameterized test.
 
-Feel you free to take a look into those exercises.
+
+### Example 1:
+
+Input: nums = [5,7,7,8,8,10], target = 8
+Output: [3,4]
+
+
+### Example 2:
+
+Input: nums = [5,7,7,8,8,10], target = 6
+Output: [-1,-1]
+
+
+### Example 3:
+
+Input: nums = [], target = 0
+Output: [-1,-1]
+
+
+### Constraints:
+
+0 <= nums.length <= 105
+-109 <= nums[i] <= 109
+nums is a non-decreasing array.
+-109 <= target <= 109
+
+### Result 
+
+<img src="Result.jpg">
