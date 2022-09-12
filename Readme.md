@@ -1,11 +1,40 @@
-# LeetCodeExercises
+# Merge k Sorted Lists
+https://leetcode.com/problems/merge-k-sorted-lists/
 
-In this repository you can find all the Leet Code exercises that I completed.
+You are given an array of k linked-lists lists, each linked-list is sorted in ascending order.
 
-Each exercise has his own branch with a description of the excercise, the leet code link and the result obtained.
+Merge all the linked-lists into one sorted linked-list and return it.
 
-Also, each exercise are documented in comments with a brief description of the instruction/logic implemented.
+### Example 1:
 
-Unitary test might be found in each exercise using JUnit and Hamcrest with/or not parameterized test.
+Input: lists = [[1,4,5],[1,3,4],[2,6]]
+Output: [1,1,2,3,4,4,5,6]
+Explanation: The linked-lists are:
+[
+1->4->5,
+1->3->4,
+2->6
+]
+merging them into one sorted list:
+1->1->2->3->4->4->5->6
 
-Feel you free to take a look into those exercises.
+### Example 2:
+Input: lists = []
+Output: []
+
+### Example 3:
+Input: lists = [[]]
+Output: []
+
+### Constraints:
+
+k == lists.length
+0 <= k <= 104
+0 <= lists[i].length <= 500
+-104 <= lists[i][j] <= 104
+lists[i] is sorted in ascending order.
+The sum of lists[i].length will not exceed 104.
+
+### Result
+
+<img src="Result.jpg">
