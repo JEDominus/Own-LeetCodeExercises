@@ -1,11 +1,29 @@
-# LeetCodeExercises
+# Palindrome NUmber
+https://leetcode.com/problems/palindrome-number/
 
-In this repository you can find all the Leet Code exercises that I completed.
+Given an integer x, return true if x is a palindrome, and false otherwise.
 
-Each exercise has his own branch with a description of the excercise, the leet code link and the result obtained.
+### Example 1:
 
-Also, each exercise are documented in comments with a brief description of the instruction/logic implemented.
+Input: x = 121
+Output: true
+Explanation: 121 reads as 121 from left to right and from right to left.
 
-Unitary test might be found in each exercise using JUnit and Hamcrest with/or not parameterized test.
+### Example 2:
 
-Feel you free to take a look into those exercises.
+Input: x = -121
+Output: false
+Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
+
+### Example 3:
+
+Input: x = 10
+Output: false
+Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
+
+### Constraints:
+
+-231 <= x <= 231 - 1
+
+### Result 
+<img src="Result.jpg">
